@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    font-family:courier;
+    font-color:black;
+    font-weight:bold;
+}
+
+#hero h1 {
+    font-size: 3em;
+font-family:courier;
+}
+
+section h2 {
+    font-size: 2.5em;
+font-family:courier;
+}
+
+section h3 {
+    font-size: 1.5em;
+    font-family:courier;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+font-family:courier;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1850&q=80');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://assets-news-bcdn.dailyhunt.in/cmd/resize/400x400_80/fetchdata16/images/4f/1f/64/4f1f64ebe73cee9e60906c31849c19ae861264fcef7fa13cbf473cf0cdc7f6ff.png');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://image.freepik.com/free-vector/professional-office-video-conferencing-background_23-2148629227.jpg');
+}
